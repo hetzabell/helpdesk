@@ -1,0 +1,50 @@
+/* 
+    Created on : 25/07/2014, 03:07:58 PM
+    Author     : Hetzabell Madera
+*/
+/******CSS Hetza para Dashboard******/
+.table-striped1 > tbody > tr:nth-child(odd) > td,
+.table-striped1 > tbody > tr:nth-child(odd) > th {
+  background-color: whitesmoke;
+}
+
+.table-striped1 > tbody > tr:nth-child(even) > td,
+.table-striped1 > tbody > tr:nth-child(even) > th {
+  background-color: #cccccc;
+}
+
+.encabezado{
+    background-color: #3064A7;
+    color: #FFFFFF;
+    font-size: 1.5em;
+}
+
+.table > thead > tr > td.warning1,
+.table > tbody > tr > td.warning1,
+.table > tfoot > tr > td.warning1,
+.table > thead > tr > th.warning1,
+.table > tbody > tr > th.warning1,
+.table > tfoot > tr > th.warning1,
+.table > thead > tr.warning1 > td,
+.table > tbody > tr.warning1 > td,
+.table > tfoot > tr.warning1 > td,
+.table > thead > tr.warning1 > th,
+.table > tbody > tr.warning1 > th,
+.table > tfoot > tr.warning1 > th {
+  background-color: #E9DC42;
+}
+
+.table > thead > tr > td.danger1,
+.table > tbody > tr > td.danger1,
+.table > tfoot > tr > td.danger1,
+.table > thead > tr > th.danger1,
+.table > tbody > tr > th.danger1,
+.table > tfoot > tr > th.danger1,
+.table > thead > tr.danger1 > td,
+.table > tbody > tr.danger1 > td,
+.table > tfoot > tr.danger1 > td,
+.table > thead > tr.danger1 > th,
+.table > tbody > tr.danger1 > th,
+.table > tfoot > tr.danger1 > th {
+  background-color: #d9534f;
+}

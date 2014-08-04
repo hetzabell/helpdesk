@@ -1,0 +1,87 @@
+/* 
+    Created on : 17/04/2014, 01:44:26 PM
+    Author     : CarlosErnesto
+*/
+
+body{
+    margin-top: 50px;
+}
+
+.btn-blueHir {
+  color: #ffffff;
+  background-color: #2D5D8D; //2D5D8D
+  border-color: #4B78A6;
+}
+.btn-blueHir:hover,
+.btn-blueHir:focus,
+.btn-blueHir:active,
+.btn-blueHir.active,
+.open .dropdown-toggle.btn-blueHir {
+  color: #ffffff;
+  background-color: #004990;
+  border-color: #0065CA;
+}
+.btn-blueHir:active,
+.btn-blueHir.active,
+.open .dropdown-toggle.btn-blueHir {
+  background-image: none;
+}
+.btn-blueHir.disabled,
+.btn-blueHir[disabled],
+fieldset[disabled] .btn-blueHir,
+.btn-blueHir.disabled:hover,
+.btn-blueHir[disabled]:hover,
+fieldset[disabled] .btn-blueHir:hover,
+.btn-blueHir.disabled:focus,
+.btn-blueHir[disabled]:focus,
+fieldset[disabled] .btn-blueHir:focus,
+.btn-blueHir.disabled:active,
+.btn-blueHir[disabled]:active,
+fieldset[disabled] .btn-blueHir:active,
+.btn-blueHir.disabled.active,
+.btn-blueHir[disabled].active,
+fieldset[disabled] .btn-blueHir.active {
+  background-color: #1F62A6;
+  border-color: #2270BE;
+}
+.btn-blueHir .badge {
+  color: #4689CC;
+  background-color: #ffffff;
+}
+
+.panel-blueHir {
+  border-color: #5E97D0;
+}
+.panel-blueHir > .panel-heading {
+  color: #FFFFFF;
+  background-color: #2D5D8D;
+  border-color: #5E97D0;
+}
+.panel-blueHir > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #5E97D0;
+}
+.panel-blueHir > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #5E97D0;
+}
+
+.panel-graymHir {
+  border-color: #AAAAAA;
+}
+.panel-graymHir > .panel-heading {
+  color: #FFFFFF;
+  background-color: #9B9A9A;
+  border-color: #AAAAAA;
+}
+.panel-graymHir > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #AAAAAA;
+}
+.panel-graymHir > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #AAAAAA;
+}
+
+.text-hir {
+  color: #f39910;
+}
+a.text-hir:hover {
+  color: #C17A0E;
+}
